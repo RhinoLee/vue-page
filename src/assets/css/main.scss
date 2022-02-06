@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Gotham;
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: url("/fonts/Gotham_Pro_Regular.ttf");
+}
+
+p, a, span, input {
+  font-family: Gotham;
+}
+
+.container {
+  margin: 0 auto;
+  width: 82%;
+  /* max-width: 1440px; */
+}

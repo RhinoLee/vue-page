@@ -1,3 +1,6 @@
+import "@/assets/css/reset.css"
+import "@/assets/css/main.scss"
+import '@/assets/css/_variable.scss';
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
