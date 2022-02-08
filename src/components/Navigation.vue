@@ -51,7 +51,7 @@
         </div>
         <div class="user-area">
           <div class="avatar">
-            <img src="../assets/images/icon/avatar_small.png" alt="" />
+            <img src="../assets/images/avatar/owl_bg.png" alt="" />
           </div>
           <div class="info">
             <div class="name">
@@ -82,10 +82,11 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 #header {
   border-bottom: 1px solid $border-gray;
   height: 80px;
+  background-color: #FFF;
 }
 .logo-area,
 .container > div,
@@ -119,7 +120,7 @@
       p {
         padding-top: 10px;
         text-align: center;
-        color: #181818;
+        color: $text-dark;
         font-size: 12px;
         text-transform: uppercase;
       }
@@ -129,7 +130,7 @@
     border-right: 1px solid $border-gray;
     padding-left: 40px;
     padding-right: 40px;
-    width: 10%;
+    width: 130px;
     img {
       display: block;
       margin: 0 auto;
@@ -186,10 +187,9 @@
         justify-content: center;
         align-items: center;
         width: 42px;
-        img {
-          display: block;
-          width: 100%;
-        }
+        height: 42px;
+        border-radius: 50%;
+        overflow: hidden;
       }
       .info {
         padding-left: 15px;
@@ -198,7 +198,7 @@
       .name {
         span {
           &:first-child {
-            color: #181818;
+            color: $text-dark;
             font-size: 12px;
             font-weight: bold;
             text-transform: uppercase;
@@ -239,7 +239,7 @@
     border-left: 1px solid $border-gray;
     border-right: 1px solid $border-gray;
     margin-right: 40px;
-    width: 8%;
+    width: 90px;
   }
 }
 </style>

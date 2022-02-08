@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+  div[class *= "col-"] {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .col-2 {
+    width: 12.666667%;
+  }
+  .col-3 {
+    width: 33.333333%;
+  }
+}

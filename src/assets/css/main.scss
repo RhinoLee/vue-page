@@ -7,12 +7,157 @@
   src: url("/fonts/Gotham_Pro_Regular.ttf");
 }
 
-p, a, span, input {
+body {
+  background-color: #f7f9fb;
+}
+
+p,
+a,
+span,
+input {
   font-family: Gotham;
+  font-size: 12px;
+}
+
+* {
+  word-wrap: break-word;
+}
+
+div.btn,
+button {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: 1s linear all;
+  span {
+    font-size: 12px;
+    line-height: 9px;
+  }
+  &.white-bg {
+    border: 1px solid $border-blue;
+    background: #fff;
+    color: $text-blue;
+    a {
+      color: $text-blue;
+    }
+  }
+  &.blue-bg {
+    border: 1px solid $border-blue;
+    background: $linear-blue;
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
+  &.no-border {
+    border: 1px solid transparent;
+  }
+}
+
+button {
+  padding: 10px;
+}
+
+div.btn {
+  a {
+    display: block;
+    padding: 10px;
+  }
+}
+
+h2.title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: $text-dark;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+h3.title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+h4.title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: $text-dark;
 }
 
 .container {
   margin: 0 auto;
-  width: 82%;
-  /* max-width: 1440px; */
+  width: calc(100% - 260px);
+}
+
+.main-area,
+.side-area {
+  padding-top: 40px;
+}
+
+.main-area {
+  padding-top: 40px;
+  margin-right: 20px;
+  width: 72%;
+}
+.side-area {
+  margin-left: 20px;
+  width: 28%;
+  .box {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #fff;
+  }
+  .title-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $border-gray;
+    padding-bottom: 20px;
+    h3,
+    a {
+      // line-height: 1;
+      // vertical-align: bottom;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    a {
+      display: block;
+      border-bottom: 1px solid $border-blue;
+      color: $text-blue;
+    }
+  }
+}
+
+.wrap {
+  display: flex;
+  margin: 0 auto;
+  width: 93%;
+  &.vertical {
+    display: block;
+  }
+}
+
+.more-wrap {
+  a {
+    color: $text-blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+  }
+}
+
+.avatar {
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
 }
