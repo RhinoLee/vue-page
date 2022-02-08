@@ -5,7 +5,7 @@
       <div class="content">
         <div class="item">
           <div class="pic">
-            <img src="../../assets/images/pic/education.png" alt="" />
+            <img src="@/assets/images/pic/education.png" alt="" />
           </div>
           <div class="info">
             <h3 class="title">Moscow State Linguistic University</h3>

@@ -6,7 +6,7 @@
         <ul>
           <li>
             <div class="pic">
-              <img src="../../assets/images/pic/courses_1.png" alt="">
+              <img src="@/assets/images/pic/courses_1.png" alt="">
             </div>
             <div class="intro">
               <h4 class="title">UX Foundations:Prototyping</h4>
@@ -15,7 +15,7 @@
           </li>
           <li>
             <div class="pic">
-              <img src="../../assets/images/pic/courses_2.png" alt="">
+              <img src="@/assets/images/pic/courses_2.png" alt="">
             </div>
             <div class="intro">
               <h4 class="title">Designing withAdobe XD and pro</h4>
@@ -24,7 +24,7 @@
           </li>
           <li>
             <div class="pic">
-              <img src="../../assets/images/pic/courses_1.png" alt="">
+              <img src="@/assets/images/pic/courses_1.png" alt="">
             </div>
             <div class="intro">
               <h4 class="title">UX Foundations:Styles and GUIs</h4>

@@ -1,12 +1,19 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Index from '../views/Index.vue'
+import Chat from '../views/Chat.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Index',
     component: Index,
-    // omponent: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    // component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+  },
+  {
+    path: '/chat',
+    name: 'Chat',
+    component: Chat,
+    // component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
 ]
 

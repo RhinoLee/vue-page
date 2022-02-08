@@ -5,7 +5,7 @@
       <div class="content">
         <div class="item">
           <div class="pic">
-            <img src="../../assets/images/pic/experience_1.png" alt="" />
+            <img src="@/assets/images/pic/experience_1.png" alt="" />
           </div>
           <div class="info">
             <h3 class="title">Freelance UX/UI designer</h3>
@@ -27,7 +27,7 @@
         </div>
         <div class="item">
           <div class="pic">
-            <img src="../../assets/images/pic/experience_2.png" alt="" />
+            <img src="@/assets/images/pic/experience_2.png" alt="" />
           </div>
           <div class="info">
             <h3 class="title">UX/UI designer</h3>

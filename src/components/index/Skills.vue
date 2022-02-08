@@ -13,49 +13,19 @@
               <div class="people">
                 <ul>
                   <li class="col-2">
-                    <img src="../../assets/images/pic/people_1.png" alt="" />
+                    <img src="@/assets/images/pic/people_1.png" alt="" />
                   </li>
                   <li class="col-2">
-                    <img src="../../assets/images/pic/people_2.png" alt="" />
+                    <img src="@/assets/images/pic/people_2.png" alt="" />
                   </li>
                   <li class="col-2">
-                    <img src="../../assets/images/pic/people_3.png" alt="" />
+                    <img src="@/assets/images/pic/people_3.png" alt="" />
                   </li>
                   <li class="col-2">
-                    <img src="../../assets/images/pic/people_4.png" alt="" />
+                    <img src="@/assets/images/pic/people_4.png" alt="" />
                   </li>
                   <li class="col-2">
-                    <img src="../../assets/images/pic/people_5.png" alt="" />
-                  </li>
-                  <li class="col-2">
-                    <div class="people-more"><span>+1</span></div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-3 item">
-            <div class="box">
-              <div class="title-wrap">
-                <span class="title">User experience (UX)</span>
-                <span class="count">6</span>
-              </div>
-              <div class="people">
-                <ul>
-                  <li class="col-2">
-                    <img src="../../assets/images/pic/people_1.png" alt="" />
-                  </li>
-                  <li class="col-2">
-                    <img src="../../assets/images/pic/people_2.png" alt="" />
-                  </li>
-                  <li class="col-2">
-                    <img src="../../assets/images/pic/people_3.png" alt="" />
-                  </li>
-                  <li class="col-2">
-                    <img src="../../assets/images/pic/people_4.png" alt="" />
-                  </li>
-                  <li class="col-2">
-                    <img src="../../assets/images/pic/people_5.png" alt="" />
+                    <img src="@/assets/images/pic/people_5.png" alt="" />
                   </li>
                   <li class="col-2">
                     <div class="people-more"><span>+1</span></div>
@@ -73,19 +43,49 @@
               <div class="people">
                 <ul>
                   <li class="col-2">
-                    <img src="../../assets/images/pic/people_1.png" alt="" />
+                    <img src="@/assets/images/pic/people_1.png" alt="" />
                   </li>
                   <li class="col-2">
-                    <img src="../../assets/images/pic/people_2.png" alt="" />
+                    <img src="@/assets/images/pic/people_2.png" alt="" />
                   </li>
                   <li class="col-2">
-                    <img src="../../assets/images/pic/people_3.png" alt="" />
+                    <img src="@/assets/images/pic/people_3.png" alt="" />
                   </li>
                   <li class="col-2">
-                    <img src="../../assets/images/pic/people_4.png" alt="" />
+                    <img src="@/assets/images/pic/people_4.png" alt="" />
                   </li>
                   <li class="col-2">
-                    <img src="../../assets/images/pic/people_5.png" alt="" />
+                    <img src="@/assets/images/pic/people_5.png" alt="" />
+                  </li>
+                  <li class="col-2">
+                    <div class="people-more"><span>+1</span></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 item">
+            <div class="box">
+              <div class="title-wrap">
+                <span class="title">User experience (UX)</span>
+                <span class="count">6</span>
+              </div>
+              <div class="people">
+                <ul>
+                  <li class="col-2">
+                    <img src="@/assets/images/pic/people_1.png" alt="" />
+                  </li>
+                  <li class="col-2">
+                    <img src="@/assets/images/pic/people_2.png" alt="" />
+                  </li>
+                  <li class="col-2">
+                    <img src="@/assets/images/pic/people_3.png" alt="" />
+                  </li>
+                  <li class="col-2">
+                    <img src="@/assets/images/pic/people_4.png" alt="" />
+                  </li>
+                  <li class="col-2">
+                    <img src="@/assets/images/pic/people_5.png" alt="" />
                   </li>
                   <li class="col-2">
                     <div class="people-more"><span>+1</span></div>

@@ -4,17 +4,17 @@
       <div class="wrap">
         <div class="share-area">
           <button class="share white-bg no-border">
-            <img src="../../assets/images/icon/share.png" alt="share" />
+            <img src="@/assets/images/icon/share.png" alt="share" />
           </button>
         </div>
         <div class="edit-area">
           <button class="edit white-bg no-border">
-            <img src="../../assets/images/icon/edit.png" alt="edit" />
+            <img src="@/assets/images/icon/edit.png" alt="edit" />
             <div>edit profile</div>
           </button>
           <button class="func white-bg no-border">
             <img
-              src="../../assets/images/icon/setting_vertical.png"
+              src="@/assets/images/icon/setting_vertical.png"
               alt="setting"
             />
           </button>
@@ -26,7 +26,7 @@
         <div class="avatar">
           <div class="avatar-wrap">
             <img
-              src="../../assets/images/avatar/owl_bg.png"
+              src="@/assets/images/avatar/owl_bg.png"
               alt="Dmitry Kargaev"
             />
           </div>
@@ -36,13 +36,13 @@
             <div class="name">
               <h2>dmitry kargaev</h2>
               <a href="#" class="social icon">
-                <img src="../../assets/images/icon/logo_gold.png" alt="in" />
+                <img src="@/assets/images/icon/logo_gold.png" alt="in" />
               </a>
             </div>
             <div class="address">
               <a href="#" class="address icon">
                 <img
-                  src="../../assets/images/icon/location.png"
+                  src="@/assets/images/icon/location.png"
                   alt="Saint Petersburg, Russian Federation"
                 />
               </a>

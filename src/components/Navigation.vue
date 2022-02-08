@@ -3,7 +3,9 @@
     <div class="nav-bar">
       <div class="logo-area">
         <h1 class="logo">
-          <img src="../assets/images/icon/logo.png" alt="Linkedin" />
+          <router-link :to="{ name: 'Index' }">
+            <img src="../assets/images/icon/logo.png" alt="Linkedin" />
+          </router-link>
         </h1>
       </div>
       <div class="container">
@@ -27,11 +29,17 @@
                 <p>jobs</p>
               </a>
             </li>
-            <li class="nav-item">
-              <a href="#">
+            <li class="nav-item chat">
+              <router-link :to="{ name: 'Chat' }">
                 <img src="../assets/images/icon/chat.png" alt="chat" />
                 <p>chat</p>
-              </a>
+                <div class="chat-count">3</div>
+              </router-link>
+              <!-- <a href="#">
+                <img src="../assets/images/icon/chat.png" alt="chat" />
+                <p>chat</p>
+                <div class="chat-count">3</div>
+              </a> -->
             </li>
             <li class="nav-item">
               <a href="#">
@@ -60,8 +68,7 @@
             </div>
             <div class="count">
               <span>367 views today</span>
-              <span
-                id="counter"
+              <span id="counter"
                 >+32 <img src="../assets/images/icon/arrow.png" alt=""
               /></span>
             </div>
@@ -86,7 +93,7 @@
 #header {
   border-bottom: 1px solid $border-gray;
   height: 80px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 .logo-area,
 .container > div,
@@ -141,10 +148,35 @@
   .container {
     display: flex;
     height: 100%;
+    max-width: unset;
     .nav-area {
       padding-left: 13px;
       padding-right: 13px;
       width: 40%;
+      .nav-item {
+        &.chat {
+          a {
+            position: relative;
+            .chat-count {
+              position: absolute;
+              top: -6px;
+              right: -6px;
+              width: 16px;
+              height: 16px;
+              background: linear-gradient(
+                215.49deg,
+                #ffb75e 5.4%,
+                #ed8f03 93.45%
+              );
+              color: #fff;
+              font-size: 12px;
+              line-height: 16px;
+              text-align: center;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
     }
     .search-area {
       position: relative;
@@ -224,7 +256,7 @@
           display: flex;
           align-items: center;
           padding-left: 4px;
-          color: #02B033;
+          color: #02b033;
           img {
             display: block;
             width: 12px;

@@ -9,7 +9,7 @@
         <ul>
           <li>
             <div class="pic">
-              <img src="../../assets/images/pic/victors_1.png" alt="">
+              <img src="@/assets/images/pic/victors_1.png" alt="">
             </div>
             <div class="intro">
               <h4 class="title">Darlene Black</h4>
@@ -18,7 +18,7 @@
           </li>
           <li>
             <div class="pic">
-              <img src="../../assets/images/pic/victors_2.png" alt="">
+              <img src="@/assets/images/pic/victors_2.png" alt="">
             </div>
             <div class="intro">
               <h4 class="title">Theresa Steward</h4>
@@ -27,7 +27,7 @@
           </li>
           <li>
             <div class="pic">
-              <img src="../../assets/images/pic/victors_3.png" alt="">
+              <img src="@/assets/images/pic/victors_3.png" alt="">
             </div>
             <div class="intro">
               <h4 class="title">Brandon Wilson</h4>
@@ -36,7 +36,7 @@
           </li>
           <li>
             <div class="pic">
-              <img src="../../assets/images/pic/victors_4.png" alt="">
+              <img src="@/assets/images/pic/victors_4.png" alt="">
             </div>
             <div class="intro">
               <h4 class="title">Kyle Fisher</h4>
@@ -45,7 +45,7 @@
           </li>
           <li>
             <div class="pic">
-              <img src="../../assets/images/pic/victors_5.png" alt="">
+              <img src="@/assets/images/pic/victors_5.png" alt="">
             </div>
             <div class="intro">
               <h4 class="title">Audrey Alexander</h4>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container hide" :class="{ show: isShow }">
     <div class="main-area">
       <Profile></Profile>
       <!-- <Tab></Tab> -->
@@ -20,7 +20,6 @@
 <style lang="scss" scoped>
 .container {
   display: flex;
-  max-width: 1920px;
 }
 </style>
 
@@ -35,6 +34,7 @@ import Education from "@/components/index/Education.vue"
 import Dashboard from "@/components/index/Dashboard.vue"
 import Victors from "@/components/index/Victors.vue"
 import Courses from "@/components/index/Courses.vue"
+import { ref, onMounted, onBeforeUnmount } from "vue"
 export default {
   components: {
     Profile,
@@ -47,6 +47,22 @@ export default {
     Dashboard,
     Victors,
     Courses
+  },
+  setup() {
+    const isShow = ref(false)
+    let timer = null
+    onMounted(() => {
+      timer = setTimeout(() => {
+        isShow.value = true
+      }, 500)
+    })
+
+    onBeforeUnmount(() => {
+      isShow.value = false
+      clearTimeout(timer)
+    })
+
+    return { isShow }
   }
 }
 </script>
