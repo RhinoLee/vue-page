@@ -98,8 +98,13 @@
       .logo-text span {
         font-size: 14px;
         font-weight: bold;
+        line-height: 0;
       }
       .logo-text {
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+        padding-top: 12px;
         span {
           color: $text-blue;
         }

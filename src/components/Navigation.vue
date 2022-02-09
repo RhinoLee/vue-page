@@ -29,7 +29,7 @@
                 <p>jobs</p>
               </a>
             </li>
-            <li class="nav-item chat">
+            <li class="nav-item chat" :class="{ active: props.nowRouteName === 'chat' }">
               <router-link :to="{ name: 'Chat' }">
                 <img src="../assets/images/icon/chat.png" alt="chat" />
                 <p>chat</p>
@@ -89,6 +89,20 @@
   </div>
 </template>
 
+<script>
+export default {
+  props: {
+    nowRouteName: {
+      type: String,
+    }
+  },
+  setup(props) {
+
+    return { props }
+  }
+}
+</script>
+
 <style lang="scss" scoped>
 #header {
   border-bottom: 1px solid $border-gray;
@@ -110,7 +124,30 @@
     align-items: center;
     height: 100%;
     li {
+      position: relative;
       width: 20%;
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -17px;
+        width: 0%;
+        height: 2px;  
+        background: $border-blue;
+        transition: .3s linear all;
+      }
+      &:hover, &.active {
+        &::after {
+          width: 100%;
+        }
+        > a {
+          p {
+            color: $text-blue;
+          }
+        }
+      }
       > a {
         display: flex;
         flex-direction: column;
@@ -118,18 +155,18 @@
         margin: auto;
         width: 24px;
         line-height: 0.9;
+        p {
+          padding-top: 10px;
+          text-align: center;
+          color: $text-dark;
+          font-size: 12px;
+          text-transform: uppercase;
+        }
       }
       img {
         display: block;
         width: 100%;
         height: auto;
-      }
-      p {
-        padding-top: 10px;
-        text-align: center;
-        color: $text-dark;
-        font-size: 12px;
-        text-transform: uppercase;
       }
     }
   }
