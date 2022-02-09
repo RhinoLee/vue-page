@@ -18,7 +18,7 @@ export default {
   },
   setup() {
     const route = useRoute()
-    const routePath = ["", "chat"]
+    const routePath = ["", "notice"]
     const nowRouteName = ref("")
 
     watch(

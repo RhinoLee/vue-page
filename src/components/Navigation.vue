@@ -29,23 +29,23 @@
                 <p>jobs</p>
               </a>
             </li>
-            <li class="nav-item chat" :class="{ active: props.nowRouteName === 'chat' }">
-              <router-link :to="{ name: 'Chat' }">
+            <li class="nav-item chat">
+              <a href="#">
                 <img src="../assets/images/icon/chat.png" alt="chat" />
                 <p>chat</p>
                 <div class="chat-count">3</div>
-              </router-link>
+              </a>
               <!-- <a href="#">
                 <img src="../assets/images/icon/chat.png" alt="chat" />
                 <p>chat</p>
                 <div class="chat-count">3</div>
               </a> -->
             </li>
-            <li class="nav-item">
-              <a href="#">
+            <li class="nav-item" :class="{ active: props.nowRouteName === 'notice' }">
+              <router-link :to="{ name: 'Notice' }">
                 <img src="../assets/images/icon/notices.png" alt="notices" />
                 <p>notices</p>
-              </a>
+              </router-link>
             </li>
           </ul>
         </div>

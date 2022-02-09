@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Index from '../views/Index.vue'
-import Chat from '../views/Chat.vue'
+import Notice from '../views/Notice.vue'
 
 const routes = [
   {
@@ -10,9 +10,9 @@ const routes = [
     // component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/chat',
-    name: 'Chat',
-    component: Chat,
+    path: '/notice',
+    name: 'Notice',
+    component: Notice,
     // component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
 ]

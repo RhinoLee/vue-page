@@ -2,7 +2,6 @@
   <div class="container hide" :class="{ show: isShow }">
     <div class="main-area">
       <Profile></Profile>
-      <!-- <Tab></Tab> -->
       <About></About>
       <Projects></Projects>
       <Skills></Skills>
